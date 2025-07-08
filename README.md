@@ -1,22 +1,35 @@
-"# Aroras-App"
+# 📈 Live Crypto Price Tracker
 
-# 📈 Live Crypto Price Tracker (React Native + Expo)
-
-A lightweight mobile app that shows real-time BTC/USDT prices via Binance WebSocket, built with React Native and Expo.
+A simple and responsive React Native app built with **Expo** that displays real-time cryptocurrency prices (e.g., BTC/USDT) using the **Binance WebSocket API**. Ideal for learning WebSockets and React Native UI.
 
 ---
 
 ## 🚀 Features
 
-- Live price updates from Binance WebSocket
-- Timestamp for each price update
-- Clean UI with color-coded price movement (green = up, red = down)
+- ✅ Real-time price updates via Binance WebSocket
+- ✅ Color-coded price changes (green ↑ / red ↓)
+- ✅ Timestamp for last update
+- ✅ Mobile-first UI with dark theme
+- ✅ Splash screen and app icon
 
 ---
 
-## 📦 Technologies Used
+## 📱 Screenshots
 
-- React Native
-- Expo
-- WebSocket
-- TypeScript
+:
+
+```html
+<img src="./assets/screenshot.png" alt="App Screenshot" width="300" />
+
+⚙️ Setup Instructions 1. Clone the repository git clone
+https://github.com/nikk0895/Aroras-App.git cd Aroras-App 2. Install dependencies
+npm install 3. Run the app npx expo start Then scan the QR code in the Expo Go
+app on your phone. 📦 Project Structure ├── App.tsx # App entry point with
+navigation ├── assets/ # App logo, splash, screenshots ├──
+components/PriceCard.tsx # Card UI for live prices ├── hooks/useBinanceSocket.ts
+# WebSocket hook for price stream ├── screens/HomeScreen.tsx # Main UI screen
+└── README.md Replace with your actual EAS build APK link (e.g., Google Drive or
+Expo EAS URL) 🌐 Binance WebSocket Source This app connects to the official
+Binance Spot WebSocket stream: wss://stream.binance.com:9443/ws/btcusdt@trade
+More info here: Binance Spot WebSocket Docs
+```
