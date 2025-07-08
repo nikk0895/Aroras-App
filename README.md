@@ -16,19 +16,21 @@ A simple and responsive React Native app built with **Expo** that displays real-
 
 ## 📱 Screenshots
 
-<img src="./assets/screenshot.png" alt="App Screenshot" width="300" />
+<img src="./assets/screenshot.jpg" alt="App Screenshot" width="300" />
 
 ---
 
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository**
+
    ```sh
    git clone https://github.com/nikk0895/Aroras-App.git
    cd Aroras-App
    ```
 
 2. **Install dependencies**
+
    ```sh
    npm install
    ```
