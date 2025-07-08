@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.nikesh08.aroras_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7aaf909-de02-43a8-9e21-5aeff8a0ffca"
+      }
     }
   }
 }

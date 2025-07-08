@@ -57,6 +57,12 @@ A simple and responsive React Native app built with **Expo** that displays real-
 
 ---
 
+## 📥 APK Download
+
+📱 [Click here to download the latest APK](https://expo.dev/accounts/nikesh08/projects/aroras_app/builds/623dd10a-7f31-4434-b45c-afd1a4a91438)
+
+---
+
 ## 🌐 Binance WebSocket Source
 
 This app connects to the official Binance Spot WebSocket stream:  
